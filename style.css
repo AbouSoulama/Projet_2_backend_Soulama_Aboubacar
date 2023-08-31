@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:whitesmoke;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+}
+
+nav select{
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-left: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.se{
+    background: rgb(22, 171, 230);
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    text-align:  center;
+    border: 2px solid rgb(209, 209, 209);
+}
+.se a{
+    color: aliceblue;
+}
+.cree{
+    background: green;
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    text-align:  center;
+    color: aliceblue;
+    border: 2px solid rgb(209, 209, 209);
+    margin-left: 10px;
+}
+.cree a{
+    color: aliceblue;
+}
+form{
+    margin-top: 5%;
+    width: 100%;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bien h1{
+    text-align: center;
+    color: rgb(20, 201, 233);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bien p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+.bien{
+    padding-top: 3%;
+}
+/* input{
+    border: none;
+    border-bottom: 2px solid black;
+    height: 35px;
+    width: 50%;
+    
+} */
