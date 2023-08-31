@@ -3,11 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* index.html */
 
-
-body{
-    background:whitesmoke;
-}
 nav a{
     text-decoration: none;
     color: rgb(43, 42, 42);
@@ -23,7 +20,10 @@ nav select{
     margin-left: 50px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    cursor: pointer;
+}
+nav select:hover{
+    background: wheat;
 }
 
 .se{
@@ -73,10 +73,5 @@ label{
 .bien{
     padding-top: 3%;
 }
-/* input{
-    border: none;
-    border-bottom: 2px solid black;
-    height: 35px;
-    width: 50%;
-    
-} */
+
+/* page acceuil */
