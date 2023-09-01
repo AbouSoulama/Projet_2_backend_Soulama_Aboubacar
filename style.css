@@ -5,6 +5,7 @@
 }
 /* index.html */
 
+
 nav a{
     text-decoration: none;
     color: rgb(43, 42, 42);
@@ -47,14 +48,19 @@ nav select:hover{
     border: 2px solid rgb(209, 209, 209);
     margin-left: 10px;
 }
+.searc{
+    font-size: 1.5rem;
+    padding-right: 30px;
+  cursor: pointer;
+}
 .cree a{
     color: aliceblue;
 }
 form{
     margin-top: 5%;
     width: 100%;
-    padding-left: 600px;
-    padding-right: 600px;
+    padding-left: 450px;
+    padding-right: 450px;
 }
 label{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -75,3 +81,30 @@ label{
 }
 
 /* page acceuil */
+
+.sect_1{
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-image: linear-gradient(rgba(7, 11, 27, 0.7),rgba(13, 20, 46, 0.7)),url(62fea4e1ae9875155fbe07c5_06_17_2022_article_monetisation_photo_couverture.jpeg);
+    /* background: rgb(80, 79, 79); */
+}
+.sect_1 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 59, 59);
+    font-size: 4rem;
+    padding-top: 15%;
+}
+.sect_1 p{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_1 img{
+    border-radius: 10px;
+}
+li{
+    font-size: 1.5rem;
+}
