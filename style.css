@@ -85,7 +85,8 @@ label{
 
 .sect_1{
     display: flex;
-    padding: 2% 3%;
+    padding: 10%;
+    height: 100%;
     justify-content: space-around;
     padding-left: 250px;
     padding-right: 250px;
@@ -120,14 +121,14 @@ li{
     padding-right: 10%;
 }
 .fonc-col{
-    flex-basis: 25%;
+    flex-basis: 24%;
     /* background: #faf3f3; */
     border-radius: 20px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-    border: 2px solid rgb(235, 227, 212);
+    /* border: 2px solid rgb(235, 227, 212); */
     cursor: pointer;
 }
 .sect_2 h1{
@@ -165,5 +166,81 @@ li{
 }
 .u{
     font-size: 3rem;
-    margin-left: 40%;
+    margin-left: 10%
+}
+
+/* section 3 */
+
+.sect_3 h5{
+    /* color: rgb(27, 27, 27); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+.sect_3 p{
+    /* color: rgb(26, 25, 25); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+.sect_3 h1{
+    text-align: center;
+    color: rgb(255, 49, 49);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+.sect_3 img{
+    border-radius: 10px;
+}
+/* section 4 */
+.sect_4 h1{
+    text-align: center;
+    color: rgb(253, 54, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_4 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+.sect_4 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 32, 32);
+}
+.even-col{
+    flex-basis: 25%;
+    /* background: #faf3f3; */
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 2px solid rgb(235, 227, 212);
+    cursor: pointer;
+}
+
+
+/* section 5 */
+.sect_5 img{
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+}
+.offre-col{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+.sect_5 h1{
+    text-align: center;
+    color: rgb(253, 54, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_5 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+.sect_5 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 32, 32);
 }
