@@ -26,7 +26,12 @@ nav select{
 nav select:hover{
     background: wheat;
 }
-
+.rr{
+    display: flex;
+}
+.rig{
+    margin-right: 30%;
+}
 .se{
     background: rgb(22, 171, 230);
     border-radius: 10px;
@@ -85,13 +90,16 @@ label{
 
 .sect_1{
     display: flex;
-    padding: 10%;
-    height: 100%;
+    padding: 3%;
+    height: 560px;
     justify-content: space-around;
     padding-left: 250px;
     padding-right: 250px;
     background-image: linear-gradient(rgba(7, 11, 27, 0.7),rgba(13, 20, 46, 0.7)),url(62fea4e1ae9875155fbe07c5_06_17_2022_article_monetisation_photo_couverture.jpeg);
     /* background: rgb(80, 79, 79); */
+}
+.fott{
+    margin-bottom: 15%;
 }
 .sect_1 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -109,6 +117,13 @@ label{
 }
 li{
     font-size: 1.5rem;
+}
+.sect_1 img{
+    width: 400px; 
+    height: 475px;
+}
+.fii{
+    
 }
 
 /* section 2 */
@@ -190,6 +205,11 @@ li{
 .sect_3 img{
     border-radius: 10px;
 }
+.sect_3 .im{
+    height: 100px;
+     width: 700px;
+     padding-left: 10%;
+}
 /* section 4 */
 .sect_4 h1{
     text-align: center;
@@ -243,4 +263,338 @@ li{
 .sect_5 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(32, 32, 32);
+}
+
+/* section 6 */
+
+.sect_6 h1{
+    text-align: center;
+    color: rgb(253, 54, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 5%;
+}
+.sect_6 h5{
+    text-align: center;
+    color: rgb(224, 63, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 25%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.sect_6 h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+}
+/* footer */
+
+
+/* page accueil responsive */
+/* page groupe discu */
+
+.rowss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.sect_7 h1{
+    text-align: center;
+    color: rgb(238, 215, 215);
+}
+.group-col{
+    flex-basis: 24%;
+    /* background: #faf3f3; */
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    /* border: 2px solid rgb(235, 227, 212); */
+    cursor: pointer;
+}
+
+.group-col h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    margin-top: 5%;
+}
+.group-col img{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    
+}
+.group-col button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(95, 90, 90);
+    text-align: center;
+    color: wheat;
+}
+
+.sect_9{
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px;
+    background: rgb(194, 255, 235);
+    height: 250px;
+}
+.sect_9 h1{
+    padding-top: 50px;
+    padding-left: 5%;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sect_9 p{
+    padding-top: 50px;
+    padding-left: 5%;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* page messagerie */
+.rowss{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.sect_8 h1{
+    text-align: center;
+    color: rgb(255, 117, 117);
+}
+.mess-col{
+    flex-basis: 24%;
+    /* background: #faf3f3; */
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    /* border: 2px solid rgb(235, 227, 212); */
+    cursor: pointer;
+}
+
+.mess-col h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(95, 76, 76);
+    margin-top: 5%;
+}
+/* .mess-col img{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    
+} */
+.mess-col button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(95, 90, 90);
+    text-align: center;
+    color: wheat;
+}
+.sect_10{
+    border: 2px solid rgb(112, 112, 112);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    width: 75%;
+    
+}
+.sect_10 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 117, 117);
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-top: 5%;
+}
+.sect_10 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(95, 76, 76);
+    
+}
+.sect_10 .confi{
+    padding-left: 100px;
+    display: flex;
+}
+.sect_10 .gauch{
+    padding-left: 20px;
+}
+.sect_10 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_10 .num{
+    width: 50px;
+    height: 50px;
+    background: brown;
+    color: wheat;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.sect_10 .cont{
+    display: flex;
+}
+
+@media (max-width: 300px){
+    .sect_1{
+        flex-direction: column;
+        padding-left: 0;
+         padding-right: 0;
+         height: 100%;
+         text-align: center;
+    }
+    .sect_1 h1{
+        font-size: 1.8rem;
+    }
+    .sect_1 p{
+        font-size: 1rem;
+    }
+    .sect_1 img{
+        width: 200px;
+        height: 300px;
+        /* height: 0; */
+    }
+    .fott{
+        display: flex;
+        justify-content: center;
+    }
+    .rr{
+        /* display: none; */
+        /* margin-right: 0; */
+    }
+    .rec{
+        display: none;
+    }
+    .rows{
+        flex-direction: column;
+    }
+    
+    .sect_2 h1{
+        font-size: 1.5rem;
+    }
+    .sect_3 .im{
+        width: 150px;
+        height: 40px;
+    }
+    .offre-col img{
+        width: 200px;
+        height: 100px;
+    }
+    .sect_6{
+        height: 900px;
+    }
+    .sect_6 p{
+        color: black;
+    }
+    .sect_6 h5{
+        margin-top: 55%;
+        font-size: 1.3rem;
+    }
+    .sect_6 h6{
+        
+        font-size: 1rem;
+    }
+    .rig{
+        margin-right: 0;
+        margin-left: 50px;
+    }
+   .sect_2 button{
+       width: 130px;
+       font-size: 10px;
+   }
+.rr i{
+       font-size: 1.5rem;
+   }
+.i{
+    font-size: 1.7rem;
+}
+.u{
+    font-size: 1.7rem;
+}
+form{
+    margin-left: 15px;
+    
+}
+nav{
+    width: 100%;
+}
+.v{
+    font-size: 1rem;
+}
+.w{
+    width: 35px;
+    height: 35px;
+}
+
+/* groupe */
+
+.rowss{
+    flex-direction: column;
+}
+.group-col img{
+    width: 200px;
+}
+.sect_9{
+    height: 800px;
+    width: 300px;
+    margin-left: 0;
+}
+.sect_10 .cont{
+    flex-direction: column;
+   
+}
+.sect_10 .confi{
+    padding-left: 0;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.sect_10{
+    margin-left: 0;
+    margin-right: 0;
+    width: 300px; 
+    border: none;
+}
+.sect_10 .num{
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+}
+.sect_8 button{
+    width: 30px;
+    height: 30px;
+}
+}
+
+
+@media (max-width: 243px) {
+    .rig{
+        margin-left: 20px;
+    }
+}
+
+/* page connexion resp */
+
+@media (max-width: 300px) {
+    form{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    form form{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

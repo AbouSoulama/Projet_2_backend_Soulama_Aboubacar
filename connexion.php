@@ -116,20 +116,20 @@
   <div class="text-center">
     <p>Pas un membre? <a href="#!" style="text-decoration: none;">Enregistré</a></p>
     <p>Se connecter avec:</p>
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-facebook-f"></i>
+    <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+      <i class="fab fa-facebook-f v"></i>
     </button>
 
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-google"></i>
+    <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+      <i class="fab fa-google v"></i>
     </button>
 
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-twitter"></i>
+    <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+      <i class="fab fa-twitter v"></i>
     </button>
 
-    <button type="button" class="btn btn-secondary btn-floating mx-1">
-      <i class="fab fa-github"></i>
+    <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+      <i class="fab fa-github v"></i>
     </button>
   </div>
 </form>

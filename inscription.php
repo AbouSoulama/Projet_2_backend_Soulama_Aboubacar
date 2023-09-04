@@ -86,7 +86,7 @@
               <div class="col">
                 <div class="form-outline">
                     <label class="form-label" for="form3Example1">Nom</label>
-                  <input type="text" id="form3Example1" class="form-control" placeholder="Entré votre nom"/>
+                  <input type="text" id="form3Example1 y" class="form-control" placeholder="Entré votre nom"/>
                 </div>
               </div>
               <div class="col">
@@ -147,20 +147,20 @@
             <!-- Register buttons -->
             <div class="text-center">
               <p>Visité-nous sur:</p>
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-facebook-f"></i>
+              <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+                <i class="fab fa-facebook-f v"></i>
               </button>
           
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-google"></i>
+              <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+                <i class="fab fa-google v"></i>
               </button>
           
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-twitter"></i>
+              <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+                <i class="fab fa-twitter v"></i>
               </button>
           
-              <button type="button" class="btn btn-secondary btn-floating mx-1">
-                <i class="fab fa-github"></i>
+              <button type="button" class="btn btn-secondary btn-floating mx-1 w">
+                <i class="fab fa-github v"></i>
               </button>
             </div>
           </form><br><br>
