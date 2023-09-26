@@ -446,7 +446,134 @@ li{
 .sect_10 .cont{
     display: flex;
 }
+/* retrouver des amis */
+.sect_11{
+    /* margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%; */
+   background-image: linear-gradient(rgba(7, 11, 27, 0.7),rgba(13, 20, 46, 0.7)),url(1520129183869.jpeg);
+   /* border-radius: 5px; */
+   height: 550px;
+}
+.rech-col{
+    flex-basis: 25%;
+    background-image: linear-gradient(rgba(7, 11, 27, 0.7),rgba(13, 20, 46, 0.7)),url(1520129183869.jpeg);
+    /* background: #faf3f3; */
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid wheat;
+}
+.sect_11 h1{
+    padding-left: 180px;
+    padding-top: 5%;
+    color: chocolate;
+}
 
+.rech-col h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 148, 148);
+    margin-top: 5%;
+}
+.rech-col p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.rech-col button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(131, 82, 82);
+    text-align: center;
+    color: wheat;
+}
+.divi{
+    padding-left: 15%; 
+    padding-right: 15%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+.sect_12{
+    background: rgb(255, 251, 242);
+}
+.sect_12 h1{
+    padding-left: 200px;
+    padding-top: 100px;
+    color: chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_12 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* profil */
+.sect_13{
+    background: azure;
+    
+}
+.modi-col{
+    flex-basis: 25%;
+    /* background-image: linear-gradient(rgba(7, 11, 27, 0.7),rgba(13, 20, 46, 0.7)),url(1520129183869.jpeg); */
+    /* background: #faf3f3; */
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid rgb(235, 235, 235);
+}
+.sect_13 h1{
+    padding-left: 150px;
+    padding-top: 5%;
+    color: rgb(17, 21, 77);
+}
+
+.modi-col h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(90, 37, 37);
+    margin-top: 5%;
+}
+.modi-col p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 15, 15);
+    
+}
+
+.modi-col button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(131, 82, 82);
+    text-align: center;
+    color: wheat;
+}
+.sect_14 .dern{
+    margin-left: 13%;
+    /* padding: 5% 5%; */
+    
+}
+.sect_14 h1{
+    padding-left: 175px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: rgb(18, 18, 63);
+}
+.dern p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 15, 15);
+    font-size: 1.3rem;
+    /* padding-top: 3%; */
+}
+.dern h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(16, 22, 59);
+    font-size: 2rem;
+}
 @media (max-width: 300px){
     .sect_1{
         flex-direction: column;
@@ -553,7 +680,22 @@ nav{
 }
 .sect_10 .cont{
     flex-direction: column;
+    margin-left: 8%;
+    margin-right: 8%;
    
+}
+.sect_10 h1{
+    padding-left: 0;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.sect_10 h3{
+    margin-top: 4%;
+    font-size: 1.2rem;
+}
+.sect_10 p{
+    
+    font-size: .8rem;
 }
 .sect_10 .confi{
     padding-left: 0;
@@ -563,10 +705,12 @@ nav{
    
 }
 .sect_10{
-    margin-left: 0;
+    margin-left: 8%;
     margin-right: 0;
-    width: 300px; 
-    border: none;
+    width: 220px; 
+    text-align: center;
+    /* border: none; */
+    
 }
 .sect_10 .num{
     width: 30px;
@@ -577,12 +721,76 @@ nav{
     width: 30px;
     height: 30px;
 }
+
+.sect_13 h1{
+    padding-left: 0px;
+    font-size: 1.4rem;
+    text-align: center;
 }
+    .modi-col h3{
+        font-size: 1.2rem;
+    }
+    .modi-col p{
+        font-size: .8rem;
+    }
+    .modi-col button{
+        width: 35px;
+        height: 35px;
+    }
+    .sect_14 h1{
+        padding-left: 0px;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .sect_14 .dern{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .sect_11 {
+        height: 100%;
+    }
+    .sect_11 h1{
+        padding-left: 0;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .sect_11 h3{
+        font-size: 1.2rem;
+    }
+    .sect_11 p{
+        font-size: .8rem;
+    }
+    .sect_11 button{
+        width: 35px;
+        height: 35px;
+    }
+    .sect_12 h1{
+        padding-left: 0;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .sect_12 .divi img{
+        width: 200px;
+        height: 150px;
+        text-align: center;
+    }
+}
+
 
 
 @media (max-width: 243px) {
     .rig{
         margin-left: 20px;
+    }
+    .sect_12 .divi img{
+        margin-right: 10%;
+    }
+}
+@media (max-width: 236px) {
+   
+    .sect_12 .divi img{
+        width: 150px;
+        height: 75px;
     }
 }
 

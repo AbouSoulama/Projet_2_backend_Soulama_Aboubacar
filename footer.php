@@ -11,7 +11,7 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <section class="" style="background: rgb(10, 10, 10);"><br>
+  <section class="" style="background: rgb(25, 25, 25);"><br>
     <section class="d-flex justify-content-center justify-content-lg-between">
       <!-- Left -->
       <div class="me-5 d-none d-lg-block">

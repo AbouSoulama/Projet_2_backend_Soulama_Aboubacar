@@ -47,7 +47,7 @@ include('navigation.php')
   <img src="aa.jpeg" alt="" style="margin-left: 30%;"> 
   <h3>Création de profil</h3><br>
   <p>Créez votre profil en quelques clics et partagez vos informations, vos intérêts et vos activités.Changez votre photo de profil, votre photo de couverture et ajoutez une brève description pour...</p><br>
-  <button>Joindre votre profil</button>
+  <button><a href="profil.php" style="text-decoration: none; color: wheat;">Joindre votre profil</a></button>
   </div>
   <div class="fonc-col">
   <img src="heureux-amis-filles-heureux-assis-dans-cafe-aide-ordinateur-portable-prendre-selfie-par-telephone_171337-94262.avif" alt="">
@@ -55,7 +55,7 @@ include('navigation.php')
   <img src="iy1ex3cookmf9cme5qlnxa.jpg" alt="">
   <h3>Recherche et ajout d'amis</h3><br>
   <p>Recherchez et ajoutez des amis sur notre plateforme. Restez connecté avec ceux que vous connaissez et découvrez de nouveaux amis.</p><br><br>
-  <button>Retrouvez des amis</button>
+  <button> <a href="retouvez des amis.php" style="text-decoration: none; color: wheat;">Retrouvez des amis</a></button>
   </div>
   <div class="fonc-col">
   <i class="fa-solid fa-file-video i"></i>

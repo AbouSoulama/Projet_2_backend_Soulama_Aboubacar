@@ -47,7 +47,7 @@ die('Erreur : '.$e->getMessage());
             <!-- Avatar -->
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle d-flex align-items-center"
+                class="nav-link  d-flex align-items-center"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -58,8 +58,9 @@ die('Erreur : '.$e->getMessage());
                   class="rounded-circle"
                   height="22"
                   alt="Portrait of a Woman"
-                  loading="lazy" style="width: 75px;
-                  height: 75px;"/>
+                  loading="lazy" style="width: 70px;
+                  height: 70px;"/>
+                   <p style="margin-top:7%;padding-left:5%;font-size:1.2rem;">Angela </p>
               </a>
             </li>
           </ul>
@@ -94,7 +95,7 @@ die('Erreur : '.$e->getMessage());
            
             <li class="nav-item dropdown me-3 me-lg-1">
               <a
-                class="nav-link dropdown-toggle hidden-arrow"
+                class="nav-link   hidden-arrow"
                 href="messagerie.php"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -121,7 +122,7 @@ die('Erreur : '.$e->getMessage());
             </li>
             <li class="nav-item dropdown me-3 me-lg-1">
               <a
-                class="nav-link dropdown-toggle hidden-arrow"
+                class="nav-link  hidden-arrow"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
